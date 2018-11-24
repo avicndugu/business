@@ -1,0 +1,11 @@
+li {
+	display:inline;
+	list-style-type: none;
+	/*float:right;*/
+}
+nav li:first-child {
+	/*float: left;*/
+}
+img{
+	width:100%;
+}
