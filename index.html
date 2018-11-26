@@ -1,20 +1,38 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
 	<title>Business website</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<!-- <link href="css/bootstrap-theme.css" rel="stylesheet"> -->
-
+	<!-- // <script type="text/javascript" src="js/bootstrap.js"></script> -->
 </head>
 <body>
 	<div class="container-fluid">
-		<nav>
-			<div>
-				<li>Friends</li>
-				<li>About</li>
-				<li>Work</li>
-				<li>Co-op</li>
-				<li>Contact</li>
+		<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+			<a href="#" class="navbar-brand">Friends</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" onclick="">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse" >	
+				<ul class="navbar-nav ml-auto">
+					<li class="navbar-item">
+						<a href="#" class="nav-link">About
+						</a>
+					</li>
+					<li class="navbar-item">
+						<a href="#" class="nav-link">Work
+						</a>
+					</li>
+					<li class="navbar-item">
+						<a href="#" class="nav-link">Co-op
+						</a>
+					</li>
+					<li class="navbar-item">
+						<a href="#" class="nav-link">Contact
+						</a>
+					</li>
+				</ul>
 			</div>
 		</nav>
 		<section>
@@ -101,6 +119,9 @@
 		</footer>
 	</div>
 <script src="js/main.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
