@@ -9,3 +9,51 @@ nav li:first-child {
 img{
 	width:100%;
 }
+
+.lower-section{
+	z-index:5;
+}
+.higher-section{
+	z-index:5;
+}
+
+.holder{
+	position:relative;
+	margin:30px 30px;
+	padding:30px 30px;
+}
+
+.left-section{
+	/*position:absolute;*/
+	top:0;
+	left:0;
+	height:80%;
+}
+.right-section{
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:30%;
+}
+.section-1  .left-section{
+	width:80%;
+}
+
+/*.section-1 {
+	height:500px;
+}*/
+.section-1 .right-section{
+	height:80%;
+	background:blue;
+}
+.section-2 {
+	height:500px;
+}
+.section-2 .right-section{
+	width:60%;
+	height:80%;
+}
+.section-2 .left-section{
+	width:60%;
+	background:blue;
+}
