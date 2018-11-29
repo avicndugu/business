@@ -8,6 +8,7 @@ nav li:first-child {
 }
 img{
 	width:100%;
+	display:block;
 }
 
 .lower-section{
@@ -21,6 +22,7 @@ img{
 	position:relative;
 	margin:30px 30px;
 	padding:30px 30px;
+	height:100%;
 }
 
 .left-section{
@@ -29,6 +31,13 @@ img{
 	left:0;
 	height:80%;
 }
+.center-section{
+	position:absolute;	
+	top:30%;
+	left:12%;
+	height:100%;
+}
+
 .right-section{
 	position:absolute;
 	bottom:0;
@@ -56,4 +65,24 @@ img{
 .section-2 .left-section{
 	width:60%;
 	background:blue;
+}
+
+.section-3 .left-section{
+	width:30%;
+	background:blue;
+	height:80%;
+}
+.section-3 .center-section{
+	width:50%;
+	background:blue;
+	height:100%;
+}
+.section-3 .right-section{
+	width:30%;
+	background:blue;
+	/*height:80%;*/
+}
+
+.section-3 .center-section img {
+	height:100%;
 }
