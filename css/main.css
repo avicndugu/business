@@ -49,9 +49,8 @@ body{
 	padding: 20% 0;
 }
 .text-holder-right button {
-	margin: 10%;
-	margin-left: 30%;
-	margin-right: 10%;
+	margin: 10% 0;
+
 }
 .img-holder{
 	/*display:block;*/
@@ -138,7 +137,9 @@ body{
     background: green;
     margin-top: 7%;*/
 }
-
+#section-5 {
+	margin-bottom: 50px;
+}
 
 #section-5 .text-holder-left ul {
 	padding: 10% 10%;
@@ -152,8 +153,8 @@ body{
 #section-5 .text-holder-left button {
 	/*margin: 10% 0;*/
 	margin-top: 5%;
-	margin-left: 30%;
-	margin-right: 10%;
+	/*margin-left: 30%;*/
+	/*margin-right: 10%;*/
 	margin-bottom: 15%;
 }
 #section-5 .img-holder-center {
@@ -169,6 +170,23 @@ body{
     width:80%;
     z-index:1;
     padding: 0 20% 20% 10%;*/
+}
+
+footer {
+	background: #333;
+	color:#fff;
+	/*padding-top: 50px;*/
+}
+
+footer .col-4{
+	padding-left: 5%;
+	padding-right: 5%;
+	margin:50px 0;
+}
+#footer-nav {
+	padding-bottom:50px;
+	padding-left: 3%;
+	padding-right: 5%;
 }
 
 
