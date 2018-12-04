@@ -234,21 +234,49 @@ footer .col-4{
 		position:relative;
 		width:100%;
 	}
+	.img-holder-center img {
+		text-align: left;
+		vertical-align: middle;
+	}
 
 	.text-holder-left ul {
-		padding: 0% 0%;
+		padding: 2% 0%;
 	}
-	.text-holder-left ul li {
+	.text-holder-left li {
 		padding: 0 0%;
 	}
 	.text-holder-left h2 {
-		padding: 0% 0;
+		padding: 0 0 5% 0;
 	}
 	.text-holder-left button {
+		display:none;
 		/*margin: 10% 0;*/
 		margin-top: 0%;
 		/*margin-left: 30%;*/
 		/*margin-right: 10%;*/
 		margin-bottom: 0%;
+	}
+	#section-5 .text-holder-left {
+	    position:absolute;
+	    top:70%;
+		left:0%;
+		height:25%;
+		width:100%;
+	    z-index:5;
+	    margin-top:0%;
+	    margin-bottom:0%;
+	}
+	#section-5 .img-holder-center {
+		position:relative;
+		top:0%;
+	    left:0%;
+	    /*height:100%;*/
+	    width:100%;
+	    z-index:1;
+	    padding-bottom: 0%;
+	    padding-top: 0%;
+	}
+	#section-5 .text-holder-right {
+		display:none;
 	}
 }
