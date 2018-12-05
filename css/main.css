@@ -123,25 +123,14 @@ body{
 	padding-left:10%;
 	padding-top: 5%;
 }
-
-.img-holder-center {
-	position:absolute;
-	top:0;
-    left:10%;
-    /*height:85%;*/
-    width:50%;
-    z-index:1;
-	/*top:0%;
-    left:0%;
-    height:100%;
-    width:80%;
-    z-index:1;
-    padding: 0 20% 20% 10%;*/
+#section-5 .text-holder-right {
+ 	background-image: url("../img/steam.jpg");
 }
 
 footer {
 	background: #333;
 	color:#fff;
+	/*position:fixed;*/
 	/*padding-top: 50px;*/
 }
 
@@ -158,7 +147,7 @@ footer .col-4{
 
 
 /***********FOR MOBILE VIEW****************/
-    @media screen and (max-width: 990px) {
+    @media screen and (max-width: 930px) {
 	.img-holder{
 		width:100%;
 	}
@@ -170,7 +159,7 @@ footer .col-4{
 	.text-holder-right {
 		top:70%;
 	    left:0%;
-	    height:25%;
+	    height:30%;
 	    width:100%;
 	}
 	.text-holder-right ul {
@@ -180,7 +169,7 @@ footer .col-4{
 		padding: 0%;
 	}
 	.text-holder-right h2 {
-		padding: 0 0 5% 0;
+		padding: 0 0 0% 0;
 		/*padding-bottom: 2%;*/
 	}
 	.text-holder-right button {
@@ -218,15 +207,21 @@ footer .col-4{
 		/*margin-right: 10%;*/
 		margin-bottom: 0%;
 	}
+
+
 	#section-3 .text-holder-left {
 	    position:absolute;
 	    top:70%;
 		left:0%;
-		height:25%;
+		height:30%;
 		width:100%;
 	    z-index:5;
+	    /*padding-bottom: 1%;*/
 	    margin-top:0%;
 	    margin-bottom:0%;
+	}
+	#section-3 .text-holder-left h2 {
+		padding: 0% 0% 0% 0% ;
 	}
 	#section-3 .img-holder{
 		padding-left:0%;
@@ -245,22 +240,16 @@ footer .col-4{
 	    position:absolute;
 	    top:70%;
 		left:0%;
-		height:25%;
+		height:30%;
 		width:100%;
 	    z-index:5;
 	    margin-top:0%;
 	    margin-bottom:0%;
 	}
-	#section-5 .img-holder-center {
-		position:relative;
-		top:0%;
-	    left:0%;
-	    /*height:100%;*/
-	    width:100%;
-	    z-index:1;
-	    padding-bottom: 0%;
-	    padding-top: 0%;
+	#section-5 .text-holder-left h2 {
+		padding: 0% 0% 0% 0% ;
 	}
+
 	#section-5 .img-holder{
 		padding-left:0%;
 	}
@@ -275,7 +264,9 @@ footer .col-4{
 	    /*height:100%;*/
 	    width:100%;
 	    z-index:1;
-	    padding-bottom: 0%;
-	    padding-top: 0%;
+	    /*margin: 0;*/
+	    /*padding-bottom: 0%;*/
+	    /*padding-top: 0%;*/
+
 	}
 }
