@@ -147,7 +147,10 @@ footer .col-4{
 
 
 /***********FOR MOBILE VIEW****************/
-    @media screen and (max-width: 930px) {
+    @media screen and (max-width: 1000px) {
+	.holder {
+		margin-bottom:50px;
+	}
 	.img-holder{
 		width:100%;
 	}
