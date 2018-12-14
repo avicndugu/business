@@ -37,7 +37,7 @@ body{
     padding-bottom: 10%;
 }
 .text-holder{
-    background: green;
+    background: #b774f2;
 }
 .text-holder ul {
 	padding: 10% 10%;
@@ -74,7 +74,10 @@ body{
 
 /*.text-holder-left {
     background: green;
-}*/	
+}*/
+#section-1 {
+	padding:20px 0;
+}	
 #section-3 .text-holder-left {	
 	position:relative;
     z-index:1;
